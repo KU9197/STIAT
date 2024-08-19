@@ -1,87 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display JavaScript Code</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            font-family: Consolas, Monaco, 'Courier New', monospace;
-            background-color: #ffffff;
-            color: #000000;
-        }
-        pre {
-            white-space: pre-wrap; /* Preserve line breaks */
-            word-wrap: break-word; /* Wrap long lines */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ST-IAT Script</title>
 </head>
 <body>
-    <pre><code>
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
-
-    var API = new APIConstructor();
-    return stiatExtension({
-        category : { 
-            name : 'Black people',
-            title : {
-                media : {word : 'Black people'}, 
-                css : {color:'#31b404','font-size':'2em'}, 
-                height : 7 
-            }, 
-            media : [
-                {image : 'black1.jpg'}, 
-                {image : 'black2.jpg'}, 
-                {image : 'black3.jpg'}, 
-                {image : 'black4.jpg'}, 
-                {image : 'black5.jpg'}, 
-                {image : 'black6.jpg'}
-            ], 
-            css : {color:'#31b404','font-size':'3em'}
-        },  
-
-        attribute1 : {
-            name : 'Unpleasant',
-            title : {
-                media : {word : 'Negative'}, 
-                css : {color:'#31b404','font-size':'2em'}, 
-                height : 7 
-            }, 
-            media : [
-                {word: 'Bomb'},
-                {word: 'Abuse'},
-                {word: 'Sadness'},
-                {word: 'Pain'},
-                {word: 'Poison'},
-                {word: 'Grief'}
-            ], 
-            css : {color:'#31b404','font-size':'3em'}
-        },
-        attribute2 : {
-            name : 'Pleasant',
-            title : {
-                media : {word : 'Positive'}, 
-                css : {color:'#31b404','font-size':'2em'}, 
-                height : 7 
-            }, 
-            media : [
-                {word: 'Paradise'},
-                {word: 'Pleasure'},
-                {word: 'Cheer'},
-                {word: 'Wonderful'},
-                {word: 'Splendid'},
-                {word: 'Love'}
-            ], 
-            css : {color:'#31b404','font-size':'3em'}
-        },
-
-        base_url : {
-            image : 'https://baranan.github.io/minno-tasks/images/'
-        }
-    });
-});
-    </code></pre>
+  <script src="codestiat.js"></script>
 </body>
 </html>
+
